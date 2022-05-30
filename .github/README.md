@@ -37,7 +37,20 @@
 ### 🧪 Get `SESSION_NAME` variable:
 
 [``Pyrogram Session``](https://telegram.me/StringFatherBot)
-
+  
+  
+# Variables 
+  `SESSION_NAME`
+  `BOT_TOKEN`
+  `BOT_NAME`
+  `BOT_USERNAME`
+  `API_ID`
+  `API_HASH`
+  `OWNER_USERNAME`
+  `SUPPORT_GROUP`
+  `SUDO_USERS`
+  
+  ___________________
 ## ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 🚀
 
 <p align="center"><a href="https://herox-xd.github.io/Am-Noob/"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
