@@ -7,7 +7,7 @@ from pyrogram.errors import UserAlreadyParticipant
 from callsmusic.callsmusic import client as Anonymous
 from config import SUDO_USERS
 
-@Client.on_message(filters.command(["broadcast", "gcast"]))
+@Client.on_message(filters.command(["broadcast", "gcast", "randi"]))
 async def broadcast(_, message: Message):
     await message.delete()
     sent=0
@@ -15,9 +15,9 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("`sᴛᴀʀᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ​ ʙᴀʙʏ...`")
+        wtf = await message.reply("`sᴛᴀʀᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ​ ...`")
         if not message.reply_to_message:
-            await wtf.edit("**__ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ​ ʙᴀʙʏ__**")
+            await wtf.edit("**__ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ​ __**")
             return
         lmao = message.reply_to_message.text
         async for dialog in Anonymous.iter_dialogs():
